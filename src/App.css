@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root{
+  --body: #fff;
+  --blue: #1da0f6;
+}
+body{
+  height: 100vh;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+button,
+input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+nav {
+  background: var(--body);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+
+main{
+  /* background: chocolate; */
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.bowl_search_two {
+  background: rgb(241, 241, 241);
+  display: flex;
+  height: 33px;
+  border-radius: 5px;
+}
+
+.svg_nav_Search {
+  width: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: rgb(134, 134, 134);
+}
+
+.svg_nav_Search svg {
+  width: 20px;
+  height: 20px;
+}
+
+.bowl_search {
+  height: 100%;
+  width: calc(100% - 30px);
+}
+
+.bowl_items_nav {
+  display: flex;
+  align-items: center;
+}
+
+.bowl_items_nav > .svg_nav_a {
+  margin-right: 15px;
+}
+
+.avatar_nav {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.svg_nav {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bowl_items_nav svg {
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,155 @@
+.wrapper_profile {
+  width: 85%;
+  height: 100%;
+  margin: 80px auto;
+}
+
+.head_profile {
+  display: flex;
+  padding: 30px;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid #eee;
+}
+
+.avatar_profile {
+  width: 200px;
+  min-width: 150px;
+  min-height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 200px;
+}
+
+.side_my_info {
+  width: 300px;
+  margin-left: 70px;
+}
+
+.first_line {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.title_username_profile {
+  font-size: 1.3rem;
+}
+
+.btns_edit_profile {
+  border: 1px solid rgb(211, 211, 211);
+  padding: 2px 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btns_edit_profile:active {
+  opacity: 0.7;
+  border: 1px solid rgb(170, 170, 170);
+}
+
+.btn_settings {
+  cursor: pointer;
+}
+
+.second_line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.fullname_profile {
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.bowl_bio {
+  margin-top: 5px;
+}
+
+.bio_profile {
+  line-height: 26px;
+}
+
+.seaction_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+}
+.seaction_container_column {
+  padding-left: 5px;
+  background-clip: padding-box;
+}
+
+.seaction_container_column > div {
+  /* background-color: aqua; */
+  margin: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 0 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+.card_post {
+  position: relative;
+}
+
+.bowl_info_cardpost {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 16, 16, 0.623);
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.card_post:hover .bowl_info_cardpost{
+    display: flex;
+
+}
+
+.bowl_info_cardpost .comments{
+display: flex;
+align-items: center;
+}
+
+
+.bowl_info_cardpost .comments svg{
+    fill: #fff !important;
+    color: #fff ;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+
+}
+
+
+.to_know_this_video{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+
+.to_know_this_video svg{
+    fill: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+}
+
+
+.bowl_no_posts{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
