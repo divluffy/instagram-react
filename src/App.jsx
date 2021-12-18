@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import Messanger from "./pages/Messanger";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Profile from "./pages/Profile";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Stories from "./pages/Stories";
 function App() {
   // const [page, setPage] = useState("home");
   return (
@@ -16,6 +19,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/chat" element={<Messanger />} />
             <Route exact path="/profile/:username" element={<Profile />} />
+            <Route exact path="/stories/:username" element={<Stories />} />
           </Routes>
         </main>
       </div>

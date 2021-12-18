@@ -19,6 +19,27 @@ import { ReactComponent as Play } from "../assets/play.svg";
 import { ReactComponent as Mute } from "../assets/mute.svg";
 import { ReactComponent as Volume } from "../assets/volume.svg";
 import { ReactComponent as Setting } from "../assets/setting.svg";
+import { ReactComponent as ArrowLeft } from "../assets/arrow-left.svg";
+import { ReactComponent as ArrowRigth } from "../assets/arrow.rigth.svg";
+import { ReactComponent as Pause } from "../assets/pause.svg";
+
+const IcPause = ({ clas, onClick }) => (
+  <div className={clas} onClick={onClick}>
+    <Pause />
+  </div>
+);
+
+const IcArrowLeft = ({ clas, onClick }) => (
+  <div className={clas} onClick={onClick}>
+    <ArrowLeft />
+  </div>
+);
+
+const IcArrowRigth = ({ clas, onClick }) => (
+  <div className={clas} onClick={onClick}>
+    <ArrowRigth />
+  </div>
+);
 
 const IcSettings = ({ clas, onClick }) => (
   <div className={clas} onClick={onClick}>
@@ -142,6 +163,7 @@ export {
   IcSaveN,
   IcSaveY,
   IcFace,
+  IcPause,
   IcSender,
   IcPlay,
   IcUser,
@@ -151,6 +173,8 @@ export {
   IcMute,
   IcSettings,
   IcLoveY,
+  IcArrowLeft,
+  IcArrowRigth,
   IcLoader,
   IcVolume,
 };

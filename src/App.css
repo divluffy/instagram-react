@@ -42,22 +42,8 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 100;
 }
-
-
-main{
-  /* background: chocolate; */
-  margin-top: 50px;
-}
-
-
-
-
-
-
-
-
 
 
 .bowl_search_two {
